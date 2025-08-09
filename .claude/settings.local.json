@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run dev:*)",
+      "mcp__puppeteer__puppeteer_navigate",
+      "Bash(pgrep:*)",
+      "Bash(npx drizzle-kit:*)",
+      "Bash(pnpm run:*)",
+      "Bash(docker-compose up:*)",
+      "mcp__puppeteer__puppeteer_screenshot",
+      "Bash(docker exec:*)",
+      "mcp__puppeteer__puppeteer_evaluate",
+      "mcp__serena__get_symbols_overview",
+      "mcp__serena__find_symbol",
+      "mcp__puppeteer__puppeteer_click",
+      "mcp__serena__think_about_collected_information",
+      "Bash(taskkill:*)"
+    ],
+    "deny": []
+  }
+}
